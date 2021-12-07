@@ -1,0 +1,7 @@
+<div>
+
+   <map name="UserServer" clazz="main.java.server.userserver.userserverimpl.UserServerImpl"/>
+   <map name="UserDao" clazz="main.java.dao.userdao.userdaoimpl.UserDaoImpl"/>
+
+
+</div>
