@@ -1,4 +1,4 @@
-package student.entity;
+package main.java.entity;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -6,16 +6,16 @@ package main.java.entity;
  * @author BoldPeanuts
  * @date Created on 2021/12/7
  */
-@student.entity.Table_Name(name = "user")
+@Table_Name(name = "user")
 public class User {
     @Column_Name(name = "user_name")
     private String userName;
-    @student.entity.Column_Name(name = "user_password")
+    @Column_Name(name = "user_password")
     private String password;
     private final String URL = "";
-    @student.entity.Column_Name(name = "user_identity")
+    @Column_Name(name = "user_identity")
     private String identity;
-    @student.entity.Column_Name(name = "user_contact")
+    @Column_Name(name = "user_contact")
     private String cotactInfo;
     /**
      *

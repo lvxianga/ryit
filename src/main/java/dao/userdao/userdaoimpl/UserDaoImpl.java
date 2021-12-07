@@ -9,7 +9,6 @@ public class UserDaoImpl implements UserDaoInter {
     @Override
     public User userLogin(User user) {
         MyJdbc jdbc = (MyJdbc)MyServletContextListener.hashMap.get("jdbc");
-
         return null;
     }
 }
