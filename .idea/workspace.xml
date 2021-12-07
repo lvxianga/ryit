@@ -7,20 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d817908-070e-4490-b85f-f020d944b563" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/MyServletContextListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/resources/myfactory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/resources/myfactory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/resources/myfactory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/resources/myfactory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyServletContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/myfactory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myfactory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/MyJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/MyJdbc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +61,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyServletContextListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="57">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,14 +219,6 @@
               <item name="Ryit_ Management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serlvet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ryit_ Management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ryit_ Management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,7 +251,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -275,9 +261,9 @@
       <recent name="C:\Users\86185\IdeaProjects\Ryit_ Management\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\86185\IdeaProjects\Ryit_ Management\web" />
       <recent name="C:\Users\86185\IdeaProjects\Ryit_ Management\src\main\resources" />
       <recent name="C:\Users\86185\IdeaProjects\Ryit_ Management\src\main\java" />
-      <recent name="C:\Users\86185\IdeaProjects\Ryit_ Management\web" />
       <recent name="C:\Users\86185\IdeaProjects\Ryit_ Management\src\main" />
     </key>
   </component>
@@ -402,7 +388,7 @@
       <workItem from="1638837356410" duration="10953000" />
       <workItem from="1638859315054" duration="10862000" />
       <workItem from="1638878351192" duration="3035000" />
-      <workItem from="1638881697234" duration="2288000" />
+      <workItem from="1638881697234" duration="5151000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1638862564159</created>
@@ -446,16 +432,23 @@
       <option name="project" value="LOCAL" />
       <updated>1638872265788</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.2">
+      <created>1638884020045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638884020045</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29913000" />
+    <option name="totallyTimeSpent" value="32776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,7 +458,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3753541" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3753541" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,8 +648,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyServletContextListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="57">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -671,7 +667,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -679,6 +674,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -690,7 +686,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>dom4jrrrrr</last-edited>
+          <last-edited>jQuery</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -702,7 +698,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

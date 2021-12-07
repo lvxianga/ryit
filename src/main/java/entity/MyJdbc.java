@@ -7,14 +7,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
 public class MyJdbc {
 
     public  Statement statement;
     private Connection conn;
     public MyJdbc() {
-        InputStream inputStream = MyJdbc.class.getClassLoader().getResourceAsStream("main/resources/MySql.properties");
+        InputStream inputStream = MyJdbc.class.getClassLoader().getResourceAsStream("/MySql.properties");
         Properties properties = new Properties();
         try {
             properties.load(inputStream);
