@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d817908-070e-4490-b85f-f020d944b563" name="Default Changelist" comment="1.1">
+    <list default="true" id="5d817908-070e-4490-b85f-f020d944b563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/MyServletContextListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" afterDir="false" />
@@ -14,8 +14,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/dao/userdao/userdaoimpl/UserDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/serlvet/UserLoginSerlvet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/serlvet/UserLoginSerlvet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/MyJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/MyJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,8 +52,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/userserver/userserverimpl/UserServerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="88">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,19 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
               <folding>
                 <element signature="e#745#746#0" expanded="true" />
                 <element signature="e#776#777#0" expanded="true" />
@@ -148,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/main/java/MyServletContextListener.java" />
         <option value="$PROJECT_DIR$/src/main/resources/MySql.properties" />
         <option value="$PROJECT_DIR$/src/main/java/entity/MyJdbc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
       </list>
     </option>
   </component>
@@ -353,7 +351,7 @@
       <updated>1638793596175</updated>
       <workItem from="1638793598811" duration="2775000" />
       <workItem from="1638837356410" duration="10953000" />
-      <workItem from="1638859315054" duration="6853000" />
+      <workItem from="1638859315054" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1638862564159</created>
@@ -369,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1638864061866</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.1">
+      <created>1638866242058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638866242058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20581000" />
+    <option name="totallyTimeSpent" value="20807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -518,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/userserver/userserverimpl/UserServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/MyJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -538,10 +533,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/userserver/userserverimpl/UserServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
           <folding>
             <element signature="e#745#746#0" expanded="true" />
             <element signature="e#776#777#0" expanded="true" />
@@ -562,13 +574,6 @@
             <element signature="e#1409#1410#0" expanded="true" />
             <element signature="e#1453#1454#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>

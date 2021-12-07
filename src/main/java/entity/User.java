@@ -1,4 +1,4 @@
-package student.entity;
+package main.java.entity.User;
 
 /**
  * Description
