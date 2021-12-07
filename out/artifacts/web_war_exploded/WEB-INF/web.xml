@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+
+    <filter>
+        <filter-name>MyFilter</filter-name>
+        <filter-class>main.java.MyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <listener>
+        <listener-class>main.java.MyServletContextListener</listener-class>
+    </listener>
+
+     <servlet>
+         <servlet-name>userlogin</servlet-name>
+         <servlet-class>main.java.serlvet.UserLoginSerlvet</servlet-class>
+     </servlet>
+    <servlet-mapping>
+        <servlet-name>userlogin</servlet-name>
+        <url-pattern>/userlogin</url-pattern>
+    </servlet-mapping>
+
+</web-app>
