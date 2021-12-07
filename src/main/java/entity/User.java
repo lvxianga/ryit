@@ -1,4 +1,4 @@
-package main.java.entity.User;
+package main.java.entity;
 
 /**
  * Description
@@ -8,7 +8,7 @@ package main.java.entity.User;
  */
 @student.entity.Table_Name(name = "user")
 public class User {
-    @student.entity.Column_Name(name = "user_name")
+    @Column_Name(name = "user_name")
     private String userName;
     @student.entity.Column_Name(name = "user_password")
     private String password;
