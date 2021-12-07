@@ -11,7 +11,7 @@ import java.util.ResourceBundle;
 
 public class MyJdbc {
 
-    private  Statement statement;
+    public  Statement statement;
     private Connection conn;
     public MyJdbc() {
         InputStream inputStream = MyJdbc.class.getClassLoader().getResourceAsStream("main/resources/MySql.properties");

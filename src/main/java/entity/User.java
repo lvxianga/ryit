@@ -6,16 +6,16 @@ package student.entity;
  * @author BoldPeanuts
  * @date Created on 2021/12/7
  */
-@Table_Name(name = "user")
+@student.entity.Table_Name(name = "user")
 public class User {
-    @Column_Name(name = "user_name")
+    @student.entity.Column_Name(name = "user_name")
     private String userName;
-    @Column_Name(name = "user_password")
+    @student.entity.Column_Name(name = "user_password")
     private String password;
     private final String URL = "";
-    @Column_Name(name = "user_identity")
+    @student.entity.Column_Name(name = "user_identity")
     private String identity;
-    @Column_Name(name = "user_contact")
+    @student.entity.Column_Name(name = "user_contact")
     private String cotactInfo;
     /**
      *
