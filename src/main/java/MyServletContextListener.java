@@ -27,6 +27,10 @@ public class MyServletContextListener implements ServletContextListener {
                 Object obj = Class.forName(clazzName).newInstance();
                 hashMap.put(i.attributeValue("name"),obj);
             }
+
+            Object jdbc = Class.forName("main.java.entity.MyJdbc").newInstance();
+            hashMap.put("jdbc",jdbc);
+
         } catch (DocumentException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
