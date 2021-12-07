@@ -18,8 +18,8 @@ public class MyServletContextListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         SAXReader reader = new SAXReader();
         Document document = null;
-        try {
-            document = reader.read("C:\\Users\\86185\\IdeaProjects\\Ryit_ Management\\src\\main\\resources\\myfactory.xml");
+            try {
+            document = reader.read("main/resources/myfactory.xml");
             Element root = document.getRootElement();
             List<Element> list = root.elements();
             for(Element i : list){
@@ -27,7 +27,7 @@ public class MyServletContextListener implements ServletContextListener {
                 Object obj = Class.forName(clazzName).newInstance();
                 hashMap.put(i.attributeValue("name"),obj);
             }
-
+            //
             Object jdbc = Class.forName("main.java.entity.MyJdbc").newInstance();
             hashMap.put("jdbc",jdbc);
 
