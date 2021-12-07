@@ -1,9 +1,12 @@
 package main.java.entity;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Properties;
 import java.util.ResourceBundle;
 
 public class MyJdbc {
@@ -11,11 +14,17 @@ public class MyJdbc {
     private  Statement statement;
     private Connection conn;
     public MyJdbc() {
-        ResourceBundle bundle = ResourceBundle.getBundle("C:\\Users\\86185\\IdeaProjects\\Ryit_Management\\src\\main\\resources\\MySql.properties");
-        String driver = bundle.getString("driver");
-        String url = bundle.getString("url");
-        String user = bundle.getString("user");
-        String password = bundle.getString("password");
+        InputStream inputStream = MyJdbc.class.getClassLoader().getResourceAsStream("main/resources/MySql.properties");
+        Properties properties = new Properties();
+        try {
+            properties.load(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String driver = properties.getProperty("driver");
+        String url = properties.getProperty("url");
+        String user = properties.getProperty("user");
+        String password = properties.getProperty("password");
 
         try {
             Class.forName(driver);
