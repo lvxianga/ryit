@@ -8,10 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d817908-070e-4490-b85f-f020d944b563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/MyServletContextListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyServletContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/MyJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/MyJdbc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyServletContextListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -388,7 +383,7 @@
       <workItem from="1638837356410" duration="10953000" />
       <workItem from="1638859315054" duration="10862000" />
       <workItem from="1638878351192" duration="3035000" />
-      <workItem from="1638881697234" duration="5151000" />
+      <workItem from="1638881697234" duration="5517000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1638862564159</created>
@@ -439,14 +434,22 @@
       <option name="project" value="LOCAL" />
       <updated>1638884020045</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.2">
+      <created>1638886895333</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638886895333</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32776000" />
+    <option name="totallyTimeSpent" value="33142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -648,11 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyServletContextListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
