@@ -24,7 +24,7 @@ public class MyServletContextListener implements ServletContextListener {
         Document document = null;
         try {
 
-            document = reader.read("C:\\Users\\86185\\IdeaProjects\\Ryit_ Management\\src\\main\\resources\\myfactory.xml");
+            document = reader.read("C:\\Users\\Administrator\\IdeaProjects\\ryit\\src\\main\\resources\\myfactory.xml");
             Element root = document.getRootElement();
             List<Element> list = root.elements();
             for(Element i : list){

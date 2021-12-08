@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="jdbc">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jdbc.jar!/" />
+      <root url="jar://E:/老王班后面课程/mysql课程/jdbc-jar/mysql-connector-java-5.1.8-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
