@@ -79,7 +79,7 @@ public class BaseDao<E> {
         String tableName = e.getClass().getAnnotation(Table_Name.class).name();
         //在这里拼查询语句
         String sql = "select * from "+tableName;
-        if(flag1){sql+=" where "+getQuerySql(e,flag)+";";}else{sql+=";"}
+        if(flag1){sql+=" where "+getQuerySql(e,flag)+";";}else{sql+=";";}
         try {
             ResultSet resultSet = jdbc.statement.executeQuery(sql);
             return resultSet;
