@@ -1,6 +1,8 @@
 package main.java;
 
 import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class MyFilter implements Filter {
@@ -15,6 +17,7 @@ public class MyFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         servletRequest.setCharacterEncoding("utf-8");
         servletResponse.setCharacterEncoding("utf-8");
+
         filterChain.doFilter(servletRequest,servletResponse);
     }
 
