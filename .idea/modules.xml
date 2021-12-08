@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ryit.iml" filepath="$PROJECT_DIR$/.idea/ryit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ryit.iml" filepath="$PROJECT_DIR$/ryit.iml" />
     </modules>
   </component>
 </project>
