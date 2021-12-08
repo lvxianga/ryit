@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/serlvet/UserLoginSerlvet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/main/java/serlvet/UserLoginSerlvet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/MyServletContextListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/serlvet/UserLoginSerlvet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ryit_ Management/main/java/serlvet/UserLoginSerlvet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/serlvet/UserLoginSerlvet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serlvet/UserLoginSerlvet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/serlvet/UserLoginSerlvet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="190">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/userdao/userdaoimpl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyServletContextListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serlvet/UserLoginSerlvet.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serlvet/UserLoginSerlvet.java" />
       </list>
     </option>
   </component>
@@ -379,7 +378,7 @@
       <workItem from="1638924205669" duration="11499000" />
       <workItem from="1638943261011" duration="12079000" />
       <workItem from="1638966005877" duration="1476000" />
-      <workItem from="1638968830577" duration="4233000" />
+      <workItem from="1638968830577" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1638862564159</created>
@@ -479,11 +478,18 @@
       <option name="project" value="LOCAL" />
       <updated>1638957289933</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1.0">
+      <created>1638973687354</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1638973687354</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62558000" />
+    <option name="totallyTimeSpent" value="62707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -697,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/serlvet/UserLoginSerlvet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="190">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
