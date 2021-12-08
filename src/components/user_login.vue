@@ -3,13 +3,11 @@
         <div class="b"></div>
         <div class="c">
             <div class="d">
-                <form method="post" action="http://localhost:8080/web_war_exploded/userlogin?type=User">
                     <h1>登录</h1>
-                    <input type="text" class="e" name="username" placeholder="用户名">
-                    <input type="text" class="e" name="password" placeholder="密码">
+                    <input type="text" class="e" name="username" placeholder="用户名" ref="username">
+                    <input type="text" class="e" name="password" placeholder="密码" ref="password">
                     <a href="#" class="f">忘记密码?</a>
-                    <input type="submit" class="g" value="登录"/>
-                </form>
+                    <button class="g" v-on:click="login">登录</button>
             </div>
         </div>
     </div>
@@ -17,7 +15,24 @@
 
 <script>
     export default {
-        name: "user_login"
+        name: "user_login",
+        methods:{
+            login(){
+                var username = this.$refs.username.value;
+                var password = this.$refs.password.value;
+                this.$axios.post('http://localhost:8081/web_war_exploded/userlogin?type=User',{
+                    'username':username,
+                    'password':password
+                }).then(
+                    response => {
+                        console.log('请求成功了',response.data)
+                    },
+                    error => {
+                        console.log('请求失败了',error.message)
+                    }
+                )
+            }
+        }
     }
 </script>
 
