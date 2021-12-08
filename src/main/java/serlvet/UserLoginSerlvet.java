@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import main.java.MyServletContextListener;
 import main.java.entity.User;
 import main.java.server.userserver.UserServerInter;
-import sun.plugin2.util.PojoUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

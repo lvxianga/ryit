@@ -12,6 +12,10 @@ import java.util.List;
 
 public class MyServletContextListener implements ServletContextListener {
 
+    public static void main(String[] args) {
+
+    }
+
     public static HashMap<String,Object> hashMap = new HashMap<>();
 
     @Override
