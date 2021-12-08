@@ -17,6 +17,25 @@ public class User {
     private String identity;
     @Column_Name(name = "user_contact")
     private String cotactInfo;
+    @Column_Name(name = "user_status")
+    private String status;
+
+    public User(String userName, String password, String identity, String cotactInfo, String status) {
+        this.userName = userName;
+        this.password = password;
+        this.identity = identity;
+        this.cotactInfo = cotactInfo;
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
     /**
      *
      * @param userName 用户名
