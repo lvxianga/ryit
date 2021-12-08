@@ -12,7 +12,6 @@ public class User {
     private String userName;
     @Column_Name(name = "user_password")
     private String password;
-    private final String URL = "";
     @Column_Name(name = "user_identity")
     private String identity;
     @Column_Name(name = "user_contact")
