@@ -165,6 +165,11 @@ public class BaseDao<E> {
         return query(e,false,true);
     }
 
+    /**
+     * 数据更新
+     * @param sql 接收sql语句
+     * @return 返回是否更新成功
+     */
     protected boolean dataUpdate(String sql){
         MyJdbc jdbc = (MyJdbc) MyServletContextListener.hashMap.get("jdbc");
         Statement statement = jdbc.statement;
@@ -178,6 +183,12 @@ public class BaseDao<E> {
         }
         return i != 0;
     }
+
+    /**
+     * 增加
+     * @param e 当前对象
+     * @return 返回是否插入成功
+     */
     protected boolean create(E e){
         HashMap<String,String> hm = getMap(e);
         StringBuffer sql = new StringBuffer("insert into ");
@@ -199,6 +210,11 @@ public class BaseDao<E> {
         return false;
     }
 
+    /**
+     * 删除
+     * @param e 当前对象
+     * @return 返回是否删除成功
+     */
     protected boolean delete(E e){
         String sql = "delete from "+e.getClass().getAnnotation(Table_Name.class).name()+" where "+getQuerySql(e,true)+";";
         return dataUpdate(sql);
