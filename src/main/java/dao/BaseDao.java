@@ -168,7 +168,7 @@ public class BaseDao<E> {
     /**
      * 数据更新
      * @param sql 接收sql语句
-     * @return 返回是否更新成功
+     * @return 返回是否更新成功1
      */
     protected boolean dataUpdate(String sql){
         MyJdbc jdbc = (MyJdbc) MyServletContextListener.hashMap.get("jdbc");
