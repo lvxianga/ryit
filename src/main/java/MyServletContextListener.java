@@ -22,7 +22,7 @@ public class MyServletContextListener implements ServletContextListener {
             List<Element> list = root.elements();
             for(Element i : list) {
                 String clazzName = i.attributeValue("clazz");
-                Class c = Class.forName("main.java.entity.MyJdbc");
+                Class c = Class.forName(clazzName);
                 sc.put(c, c.newInstance());
             }
             Class c = Class.forName("main.java.entity.MyJdbc");
