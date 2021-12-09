@@ -12,10 +12,6 @@ import java.util.List;
 
 public class MyServletContextListener implements ServletContextListener {
     public static SafeCast sc = new SafeCast();
-    public static HashMap<String,Object> hashMap = new HashMap();
-    public static void main(String[] args) {
-
-    }
 
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
