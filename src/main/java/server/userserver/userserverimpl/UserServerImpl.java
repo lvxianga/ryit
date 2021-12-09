@@ -10,6 +10,5 @@ public class UserServerImpl implements UserServerInter {
     public User userLogin(String type,User user) {
         UserDaoInter userDaoInter = (UserDaoInter) MyServletContextListener.hashMap.get(type+"Dao");
         return userDaoInter.userLogin(user);
-
     }
 }
