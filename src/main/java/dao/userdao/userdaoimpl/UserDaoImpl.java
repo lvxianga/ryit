@@ -9,35 +9,38 @@ import java.util.ArrayList;
 
 
 public class UserDaoImpl extends BaseDao<User> implements UserDaoInter {
+
     @Override
     public User userLogin(User user) {
-        String sql = "select * from user where User_name='"+user.getUserName()+"' and User_PassWord='"+user.getPassword()+"';";
-        return  null;
+
+        return querySingle(user);
+
     }
 
     @Override
-    public User query(User user) {
-        return null;
+    public boolean createUser(User user) {
+        return create(user);
     }
 
     @Override
-    public boolean create(User user) {
+    public boolean updateUser(User user) {
+        return update(user);
+    }
+
+    @Override
+    public boolean deleteUser(User user) {
         return false;
     }
 
     @Override
-    public boolean update(User user) {
-        return false;
+    public ArrayList<User> queryAllUser() {
+        return queryAll(new User());
     }
 
     @Override
-    public boolean delete(User user) {
-        return false;
+    public ArrayList<User> fizzyQueryUser(User user) {
+        return fizzyQuery(user);
     }
 
-    @Override
-    public ArrayList<User> queryAll() {
-        return null;
-    }
 
 }
