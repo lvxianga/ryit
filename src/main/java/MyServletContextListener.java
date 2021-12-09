@@ -23,7 +23,7 @@ public class MyServletContextListener implements ServletContextListener {
         SAXReader reader = new SAXReader();
         Document document = null;
         try {
-            document = reader.read("..\\resources\\myfactory.xml");
+            document = reader.read("C:\\Users\\86185\\IdeaProjects\\Ryit_ Management\\src\\main\\resources\\myfactory.xml");
             Element root = document.getRootElement();
             List<Element> list = root.elements();
             for(Element i : list){

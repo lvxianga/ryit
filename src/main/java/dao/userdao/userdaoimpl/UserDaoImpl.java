@@ -12,7 +12,9 @@ public class UserDaoImpl extends BaseDao<User> implements UserDaoInter {
 
     @Override
     public User userLogin(User user) {
+
         return querySingle(user);
+
     }
 
     @Override
