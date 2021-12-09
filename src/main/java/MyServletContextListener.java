@@ -7,7 +7,6 @@ import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-import java.util.HashMap;
 import java.util.List;
 
 public class MyServletContextListener implements ServletContextListener {
@@ -26,7 +25,6 @@ public class MyServletContextListener implements ServletContextListener {
                 Class c = Class.forName("main.java.entity.MyJdbc");
                 sc.put(c, c.newInstance());
             }
-
             Class c = Class.forName("main.java.entity.MyJdbc");
             sc.put(c,c.newInstance());
         } catch (DocumentException e) {
