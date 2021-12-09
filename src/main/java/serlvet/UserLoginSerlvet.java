@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import main.java.MyServletContextListener;
 import main.java.entity.User;
 import main.java.server.userserver.UserServerInter;
+import main.java.server.userserver.userserverimpl.UserServerImpl;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,9 +19,7 @@ public class UserLoginSerlvet extends HttpServlet {
        String username = req.getParameter("username");
        String password = req.getParameter("password");
        User user = new User(username,password);
-       String type = req.getParameter("type");
-       UserServerInter userServerInter = (UserServerInter) MyServletContextListener.hashMap.get(type+"Server");
-       User newUser = userServerInter.userLogin(type,user);
+       User newUser = MyServletContextListener.sc.get(UserServerImpl.class).userLogin(user);
         Gson gson = new Gson();
         String javajson = gson.toJson(newUser);
         resp.getWriter().println(javajson);
