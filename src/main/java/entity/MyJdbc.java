@@ -13,7 +13,7 @@ public class MyJdbc {
     public  Statement statement;
     private Connection conn;
     public MyJdbc() {
-        InputStream inputStream = MyJdbc.class.getClassLoader().getResourceAsStream("/MySql.properties");
+        InputStream inputStream = MyJdbc.class.getClassLoader().getResourceAsStream("main/resources/MySql.properties");
         Properties properties = new Properties();
         try {
             properties.load(inputStream);
