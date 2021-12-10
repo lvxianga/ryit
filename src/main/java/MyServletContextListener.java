@@ -11,13 +11,13 @@ import java.util.List;
 
 public class MyServletContextListener implements ServletContextListener {
     public static SafeCast sc = new SafeCast();
-
+    
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         SAXReader reader = new SAXReader();
         Document document = null;
         try {
-            document = reader.read("..\\resources\\myfactory.xml");
+            document = reader.read("C:\\Users\\Administrator\\IdeaProjects\\ryit\\src\\main\\resources\\myfactory.xml");
             Element root = document.getRootElement();
             List<Element> list = root.elements();
             for(Element i : list) {

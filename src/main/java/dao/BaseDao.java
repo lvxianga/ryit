@@ -72,7 +72,7 @@ public class BaseDao<E> {
      * @return
      */
     protected ResultSet getResultSet(E e,boolean flag,boolean flag1){
-        MyJdbc jdbc = (MyJdbc) MyServletContextListener.hashMap.get("jdbc");
+        MyJdbc jdbc = MyServletContextListener.sc.get(MyJdbc.class);
         //判断mysql是否登陆成功
         if(jdbc.statement == null) {return null;}
         //拿到表名
@@ -98,7 +98,7 @@ public class BaseDao<E> {
      */
     protected ArrayList<E> query(E e, boolean flag, boolean flag1){
         //连接数据库
-        MyJdbc jdbc = (MyJdbc) MyServletContextListener.hashMap.get("jdbc");
+        MyJdbc jdbc =  MyServletContextListener.sc.get(MyJdbc.class);
         //拿到结果集
         ResultSet resultSet = getResultSet(e,flag,flag1);
         //判断是否拿到
@@ -171,7 +171,7 @@ public class BaseDao<E> {
      * @return 返回是否更新成功1
      */
     protected boolean dataUpdate(String sql){
-        MyJdbc jdbc = (MyJdbc) MyServletContextListener.hashMap.get("jdbc");
+        MyJdbc jdbc = MyServletContextListener.sc.get(MyJdbc.class);
         Statement statement = jdbc.statement;
         int i = 0;
         if(statement != null){
